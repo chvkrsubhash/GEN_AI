@@ -31,9 +31,7 @@ def generate_quiz(topic, level):
     C. [Option C]
     D. [Option D]
     Correct Answer: [A/B/C/D]
-    Explanation: [Brief explanation of the correct answer]
-    
-    Generate 3 questions in this format."""
+    Explanation: [Brief explanation of the correct answer]"""
     
     quiz_content = generate_content(prompt, topic)
     return quiz_content.split("\n\n")
